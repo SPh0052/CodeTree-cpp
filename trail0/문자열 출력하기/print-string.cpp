@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-    int N;
+    int N, i;
     
     cin >> N;
 
-    for(N=0; N<6; N++){
+    for(i=0; i<N; i++){
         cout << "LeebrosCode" << "\n";
     }
     return 0;
