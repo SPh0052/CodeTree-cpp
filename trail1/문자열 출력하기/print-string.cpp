@@ -5,7 +5,7 @@ int main() {
     int N;
     cin >> N;
 
-    for(int i=0; i<6; i++){
+    for(int i=0; i<N; i++){
         cout << "LeebrosCode" << endl;
     }
     return 0;
