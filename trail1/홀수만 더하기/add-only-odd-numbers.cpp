@@ -9,7 +9,7 @@ int main() {
 
     for(int i=0; i<N; i++){
         cin >> k;
-        if(k%2==1 && i%3==0){
+        if(k%2==1 && k%3==0){
             sum+=k;
         }
 
